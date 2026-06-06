@@ -6,6 +6,28 @@ This lab evaluates K-Nearest Neighbors (KNN) and Radius Neighbors (RNN) classifi
 ## Files
 - `MSCS_634_Lab_2.ipynb`: Jupyter Notebook containing dataset exploration, model training, accuracy tables, plots, and observations.
 - `requirements.txt`: Python dependencies used for the notebook.
+- `screenshots/`: Output screenshots organized by lab step.
+
+## Screenshot Guide
+
+### Load and Prepare Dataset
+- `screenshots/load_prepare_dataset/01-load-wine-dataset-preview-left.png`: Wine dataset loading code and first rows.
+- `screenshots/load_prepare_dataset/02-load-wine-dataset-preview-right.png`: Continued preview of the Wine dataset columns.
+- `screenshots/load_prepare_dataset/03-feature-summary-statistics.png`: Feature summary statistics including mean, standard deviation, minimum, and maximum.
+- `screenshots/load_prepare_dataset/04-class-distribution.png`: Class distribution for the three wine classes.
+- `screenshots/load_prepare_dataset/05-train-test-split-class-counts.png`: 80/20 train-test split and class counts.
+
+### KNN
+- `screenshots/KNN/knn-accuracy-results.png`: KNN accuracy results for `k=1`, `k=5`, `k=11`, `k=15`, and `k=21`.
+
+### RNN
+- `screenshots/RNN/rnn-accuracy-results.png`: Radius Neighbors accuracy results for radius values 350, 400, 450, 500, 550, and 600.
+
+### Compare Results
+- `screenshots/compare_results/01-knn-accuracy-trend-plot.png`: KNN accuracy trend plot.
+- `screenshots/compare_results/02-rnn-accuracy-trend-plot.png`: Radius Neighbors accuracy trend plot.
+- `screenshots/compare_results/03-best-model-comparison-table.png`: Best KNN and RNN model comparison.
+- `screenshots/compare_results/04-best-knn-confusion-matrix-classification-report.png`: Confusion matrix and classification report for the best KNN model.
 
 ## Key Insights
 - KNN produced the stronger results in this experiment. The best KNN accuracy was 0.806, achieved with `k=5`, `k=11`, `k=15`, and `k=21`.
@@ -20,6 +42,7 @@ This lab evaluates K-Nearest Neighbors (KNN) and Radius Neighbors (RNN) classifi
 
 ## Run the Notebook
 ```bash
+cd MSCS_634_Lab_2
 pip install -r requirements.txt
 jupyter notebook MSCS_634_Lab_2.ipynb
 ```
