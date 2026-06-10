@@ -34,6 +34,8 @@ This lab evaluates K-Nearest Neighbors (KNN) and Radius Neighbors (RNN) classifi
 - The `k=1` KNN model scored 0.778, which suggests it was more sensitive to individual nearby samples.
 - RNN performed best at radius 350 with an accuracy of 0.722. Accuracy decreased as the radius increased, reaching 0.667 at radius 550 and 600.
 - KNN was preferable for this dataset and parameter range because it consistently used a fixed number of nearest neighbors. RNN was more sensitive to radius choice and feature scale.
+- The best KNN confusion matrix showed perfect classification for class 0, while most errors occurred between class 1 and class 2. This suggests that class 1 and class 2 are closer together under the original feature-distance calculations.
+- The feature summary showed that Wine features use very different numeric ranges. This matters for neighbor-based classifiers because distance calculations can be influenced more heavily by large-scale features such as `proline`.
 
 ## Challenges and Decisions
 - A stratified 80/20 train-test split was used to preserve the class distribution across the training and testing sets.
