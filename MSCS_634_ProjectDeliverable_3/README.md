@@ -8,7 +8,7 @@ This deliverable applies classification, clustering, and association rule mining
 - Hyperparameter tuning: GridSearchCV for Random Forest
 - Evaluation: Confusion matrix, ROC curve, Accuracy, F1 score, and ROC-AUC
 - Clustering: K-Means on customer RFM-style features
-- Pattern mining: Apriori association rules on product baskets
+- Pattern mining: FP-Growth frequent itemsets and association rules on product baskets
 
 ## Process Rationale
 - The high-value invoice label was created from the top quartile of invoice totals to make the classification task business-relevant.
