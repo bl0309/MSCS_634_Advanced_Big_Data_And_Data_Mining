@@ -56,7 +56,6 @@ Customer identifiers should be protected, models should not unfairly exclude cus
 ## Files
 - `MSCS_634_Project.ipynb`: Consolidated final notebook.
 - `Final_Project_Report.pdf`: Academic-style written report with title page, abstract, methods, results, tables, figures, ethical considerations, recommendations, limitations, conclusion, and APA-style references.
-- `Final_Project_Presentation.pptx`: 10 minute presentation slides.
 - `data/`: Derived project datasets.
 - `screenshots/`: Supporting visualizations used in the final report.
 
